@@ -3,7 +3,7 @@ import unittest
 def wallis(n):
     prod = 1
     for i in range(1,n+1):
-        a = (4*(i**2))/((4(i**2))-1)
+        a = (4*(i**2))/((4*(i**2))-1)
         prod*=a
     return(2*prod) 
 
